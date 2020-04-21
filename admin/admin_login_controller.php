@@ -11,12 +11,12 @@
         if($name_set==$name && $pass_set==$pass)
         {
         
-          echo 'login successfully';
+            header('location: admin_main_page.php');
        
         }
         
  else {
-            echo 'no wait';
+            echo 'no wait, unsuccessful ';
  }
        }
        

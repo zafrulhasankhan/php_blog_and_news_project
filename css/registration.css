@@ -4,14 +4,15 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Mar 28, 2020, 12:03:17 PM
+    Created on : Mar 27, 2020, 7:43:10 PM
     Author     : Zafrul Hasan Nasim
 */
+
 .container
 {
     width: 400px;
-    height: 450px;
-    margin: 18px auto;
+    height: 700px;
+    margin: 12px auto;
     background:  #0000ff;
     position: center;
 }
@@ -29,15 +30,9 @@ and open the template in the editor.
     top: 100%;
     transform: translateY(5%);
 }
-
-.title{
-    font-size:32px;
-    font-weight: normal;
-    margin: 2 3 40px;
-    text-align: center;
-    color: blue;
+.account-title {
+    
 }
-
 .name{
    
     height: 35px;
@@ -48,19 +43,35 @@ and open the template in the editor.
     
     
 }
+.dept{
+    height: 35px;
+    width: 280px;
+    color: black;
+    font-style: italic;
+    background-color:#ffcccc;
+    
+}
 .email{
    height: 35px;
     width: 280px;
-    color:black;
+    color: #009900;
     font-style: italic;
     background-color:#ffcccc;
    
 }
-.password
+.mobile{
+    height: 35px;
+    width: 280px;
+    color: black;
+    font-style: italic;
+    background-color:#ffcccc;
+    
+}
+.pass
 {
     height: 35px;
     width: 280px;
-     color: black;
+     color:black;
      font-style: italic;
     background-color:#ffcccc;
     

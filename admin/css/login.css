@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 28, 2020, 12:03:17 PM
+    Author     : Zafrul Hasan Nasim
+*/
+body{
+    background: #99ffcc;
+    background-size: 1400px 680px;
+}
+.container
+{
+    width: 550px;
+    height: 500px;
+    margin: 18px auto;
+    background-image: url('images/admin.webp');
+    position: center;
+}
+
+.container form{
+    position: absolute;
+    top: 227;
+    left: 550;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 50 cm;
+    color:wheat;
+    text-transform:none;
+    
+    text-align: center;
+    
+}
+
+
+.name{
+   
+    height: 40px;
+    width: 280px;
+    color:black;
+    background-color: #00ff00;
+    font-style: italic;
+    font-size:19;
+    
+    
+}
+
+.password
+{
+    height: 40px;
+    width: 280px;
+     color: black;
+     font-style: italic;
+    background-color:#00ff00;
+     font-size:19;
+    
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: red; 
+  color: #f0f0f0; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
