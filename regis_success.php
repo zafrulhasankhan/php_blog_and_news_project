@@ -26,7 +26,7 @@
                     <img src="css/image/chktrue.jpg">
                     <p style="font-size:20px;color: #ff0000;"><b>Thank you for registering into our web site. Please update your profile with your details.
                         Click on below link to login.</></p>
-                    <a href="login.jsp" class="btn btn-success">     Log in      </a>
+                    <a href="user_login_form.php" class="btn btn-success">     Log in      </a>
                     <br><br>
                 </div>
 

@@ -10,10 +10,13 @@ if(isset($_POST['login'])){
     $sql="select * from  user where  username='$username' and email= '$email' and  password ='$password'";
     $result=  mysqli_query($db, $sql);
     $row=  mysqli_fetch_array($result);
+    session_start();
+    $_SESSION['name']=$row['username'];
     
     
     if($row["email"]==$email && $row["email"]==$email){
-          echo"You are a validated user.";}
+        header('location:index.php');
+    }
     else
    {
     echo"Sorry, your credentials are not valid, Please try again.";
