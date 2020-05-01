@@ -1,4 +1,5 @@
 <?php
+
 $conn = new mysqli("localhost", "root", "", "php_blog_and_news_project");
 if(isset($_POST['btn-upload']))
 {    
@@ -25,6 +26,21 @@ if(isset($_POST['btn-upload']))
  {
   $sql="INSERT INTO post(title,filename,directory,body,date) VALUES('$title','$final_file','$folder','$body',now())";
   mysqli_query($conn,$sql);
+  ?>
+  <script>
+  alert('successfully uploaded');
+        window.location.href='create_post_form.php?success';
+        </script>
+        <?php
+ }
+ else
+ {
+     ?>
+  <script>
+  alert('error while uploading file');
+        window.location.href='create_post_form.php?fail';
+        </script>
+  <?php
  }
 }
 ?>

@@ -50,7 +50,23 @@
                                 <button type="submit" class="btnn" name="btn-upload">upload</button>
 
 			</form>
-				
+            <div class="suc_msg">
+            
+            <?php
+ if(isset($_GET['success']))
+ {
+  ?>
+                <label>Post Uploaded Successfully... <span class="closebtn" onclick="this.parentElement.style.display='none';"></span>  <a href="../index.php">click here to view your post.</a></label>
+        
+        <?php
+ }
+ else if(isset($_GET['fail']))
+ {
+  ?>
+        <label>Problem While File Uploading !</label>
+ <?php } ?>
+		
+            </div>
 				<!-- if editing post, display the update button instead of create button -->
 				
 			
@@ -61,8 +77,7 @@
     </body>
     
     
-    
-    
+   
     
     
 </html>

@@ -111,11 +111,11 @@ blog {position: relative;margin: 0 0 50px; background-color: #fff;border: 1px so
 
 /** box shadow **/
 .gmd {
-    background: #cccccc;
+    background: #999999;
   border-radius: 20px;
   display: block;
   float: left;
-  height: 500px;
+  height: 563px;
   margin: 1rem;
   position: relative;
   width: 330px;
@@ -145,22 +145,166 @@ blog {position: relative;margin: 0 0 50px; background-color: #fff;border: 1px so
 }
 .form{
    position: relative;
-    left: 100;
+    left: 138;
 }
 .post_title{
     text-align: center;
     font-size:20;
     position: relative;
     top:-80;
+    color: #cc0000
+        
 }
 
 .date{
     position: relative;
-    top: 120;
-    left:77;
+    top: 180;
+    left:70;
+    color: #66ff66;
 }
 .line{
     position: relative;
-    top:130;
+    top:193;
     border: 1px  #660066 solid;
+}
+
+/* comment */
+
+.comment{
+    position: relative;
+    top: 66;
+    left:-120;
+}
+
+.comment h5{
+    text-align: center;
+    position: relative;
+    top: 25%;
+    transform: translateY(-90%);
+}
+.comment h6{
+    
+    
+   
+    text-align: center;
+    position: relative;
+    top: -29;
+}
+
+/* seer react */
+
+.seer-eye{
+    position: relative;
+    top:0;
+    left:-45;
+}
+.seer-eye h5{
+    text-align: center;
+    position: relative;
+    top: 25%;
+    transform: translateY(-90%);
+}
+.seer-eye h6{
+    
+    
+   
+    text-align: center;
+    position: relative;
+    top: -29;
+}
+
+/* like react */
+.like-react
+{
+    position: relative;
+    top:-66;
+    left:31;
+}
+.like-react h5{
+    text-align: center;
+    position: relative;
+    top: 25%;
+    transform: translateY(-90%);
+}
+.like-react h6{
+    text-align: center;
+    position: relative;
+    top: -27;
+}
+
+
+/* dislike react */
+
+
+.dislike-reactt
+{
+    position: relative;
+    top:-129;
+    left:100;
+}
+.dislike-reactt h5{
+    text-align: center;
+    position: relative;
+    top: 25%;
+    transform: translateY(-90%);
+}
+.dislike-reactt h6{
+    text-align: center;
+    position: relative;
+    top: -29;
+}
+
+
+
+/* react-up-line */
+.react-up-line{
+      position: relative;
+    top:80;
+    border: 1px  #660066 solid;
+}
+
+.dislike-react
+{
+    position: relative;
+    top:-188;
+    left:104;
+}
+.body-title{
+    position: relative;
+    top:-330;
+    left:1;
+    
+}
+.body-title h5{
+    font-size:15;
+    position: relative;
+    top: 10;
+    color: #66ff66
+}
+.read-more{
+    position: relative;
+    top:-320;
+    left: 90;
+    font-size:17;
+    
+}
+.read-more a {
+    color: red;
+}
+.suc_msg{
+    position: relative;
+    top: -40;
+    left: -18;
+    background:green;
+    width: 445;
+    text-align: center;
+    color: white
+}
+.suc_msg a{
+    color: #ccffcc
+        ;
+}
+body{
+    background: url('../image/blogbody3.jpg');
+    background-size: 400px 200px;
 }

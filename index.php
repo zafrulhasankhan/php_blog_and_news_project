@@ -4,6 +4,7 @@
     <head>
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         <title>
            
           
@@ -25,10 +26,7 @@
   <a href="#contact">Contact</a>
   
   <!-- Right-aligned links -->
-  <div class="topnav-right">
-    
-    <a href=""> Welcome To <?php echo $_SESSION['name']; ?></a>
-  </div>
+  
   
 </div>
         <br>
@@ -50,26 +48,59 @@
                                 <a href="blog-details.html"><img class="img-fluid" src="admin/image_holder/<?php echo $filename;  ?>" alt=""></a>
                             </div>
                  
-                 
                  <hr class="line">
                  
-                 <div class="date">
-                     
+                     <div class="date">
                      <img src='image/calander4.png' height="40" width="40" >&ensp;
                      <?php echo $date;  ?>
-                    
-                </div>
-        </div>  
-            <div class="post_title">
+                     </div>
+             </div> 
+            
+            
+                 <div class="post_title">
                  <b><?php  echo $title ; ?></b>
-                
                  </div>
             
+            
+            <div class="comment">
+                <h5><i class="em em-speech_balloon" aria-role="presentation"></i></h5>
+                <h6>22555</h6>
+            </div>
+            
+            <div class="seer-eye">
+                <h5><i class="em em-eye" aria-role="presentation" aria-label=""></i></h5>
+                <h6>22555</h6>
+            </div>
+            
+            <div class="like-react">
+                <h5><i class="em em---1" aria-role="presentation" aria-label="THUMBS UP SIGN"></i></h5>
+                <h6>22555</h6>
+            </div>
+            <div class="dislike-reactt">
+                <h5><i class="em em--1" aria-role="presentation" aria-label="THUMBS UP SIGN"></i></h5>
+                <h6>22555</h6>
+            </div>
+            
+            
+             <div class="body-title">
+                <h5><?php $body_crop =strpos($body, ' ', 90);
+                echo substr($body,0,$body_crop );  ?></h5>
+               
+             </div>
+            <div class="read-more">
+                
+                <a href="read-more.php"><i class="em em-soon" aria-role="presentation" aria-label="SOON WITH RIGHTWARDS ARROW ABOVE"></i> Read more...</a>
+            </div>
+           
+        
+            
+            
         </div>
+             
         </div>
  <?php } ?>
         
-        
+       
        
  </body>   
 </html>
